@@ -1,0 +1,21 @@
+/* img{
+    width: 350px;
+    height:300px;
+} */
+.landingpage{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    width: 459px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 0;
+}
