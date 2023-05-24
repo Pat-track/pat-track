@@ -9,7 +9,7 @@ body {
     width: 360px;
     height: 620px;
     margin: auto;
-    background-color: #344a72;
+    background-color:  #40826D;
     border-radius: 3px;
     
   }
@@ -19,7 +19,8 @@ body {
     height: 280px;
     margin: auto;
     border-radius: 3px;
-    background-color: #344a72;
+    background-color:#40826D;
+ 
 
 
     /* background-color: white; */
@@ -55,15 +56,16 @@ body {
     border-radius: 6px;
     outline: none;
   }
-  input[type="button"] {
-    width: 320px;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: #49c1a2;
-    color: white;
-    font-size: 18px;
-  }
+  
+  input[type="button"] , .btnn1 {
+   width: 320px;
+   height: 35px;
+   margin-top: 20px;
+   border: none;
+   background-color:white;
+   color: #40826D;
+   font-size: 18px;
+ }
   p {
     text-align: center;
     padding-top: 20px;
