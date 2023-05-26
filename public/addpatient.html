@@ -9,8 +9,50 @@
 <header>
 <body id="patient">
 
+	<form action="viewpatient.html" method="GET">
+		<h2>ADD PATIENTS</h2>
+		<label>Patient Name</label>
+		<input type="text" name="fname" id="name">
+	
+		<label>Date</label>
+		<input type="date" name="date" id="date">
+		<label>Email</label>
+		<input type="text" name="email" id="email">
+		<label>Age</label>
+		<input type="text" name="age" id="age">
+		<label>Contact</label>
+		<input type="text" name="number" id="number">
+		<label>Disease</label>
+		<input type="Text" name="Disease" id="disease">
+		<label>Condition</label>
+		<input type="Text" name="Condition" id="Condition">
+		<label>Medicine</label>
+		<input type="Text" name="Medicine" id="Medicine">
+		<input type="button" name="button" id="btn" value="Add" onclick="AddRow()">
+	</form>
 
-	<center>
+
+
+	
+	<table border="8" id="show">
+		<thead>
+			<tr>
+				<th>Patient Name</th>
+				<th>Date</th>
+				<th>Email</th>
+				<th>Age</th>
+				<th>Contact</th>
+				<th>Disease</th>
+				<th>Condition</th>
+				<th>Medicine</th>
+			</tr>
+		</thead>
+	</table> 
+
+	
+
+
+	<!-- <center>
         <h2>ADD PATIENTS</h2>
 		<table border="8">
 			<thead>
@@ -55,25 +97,7 @@
 		</table>
 
         <h2 id="navigate">VIEW PATIENTS</h2>
-
-        <table border="8" id="show">
-            <thead>
-                <tr>
-                    <th>Patient Name</th>
-                    <th>Date</th>
-                    <th>Email</th>
-                    <th>Age</th>
-                    <th>Contact</th>
-                    <th>Disease</th>
-                    <th>Condition</th>
-                    <th>Medicine</th>
-                </tr>
-            </thead>
-        </table>
-
-		
-	</center>
-
+</center> -->
 
 </body>
 </header>
