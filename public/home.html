@@ -12,9 +12,15 @@
         <img src="src/3929642.jpg" alt="img" width="300" height="300">
     </div>
     <div class="btns">
-        <button class="b1">Add patient</button>
-        <button class="b2">View patient</button>
+        <button class="b1" onclick="window.location.href='addpatient.html'">Add patient</button>
+        <button class="b2" onclick="redirect()">View patient</button>
     </div>
+
+    <script>
+        function redirect(){
+            window.location.href="addpatient.html#navigate";
+        }
+    </script>
 
 </body>
 </html>
