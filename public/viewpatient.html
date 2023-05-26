@@ -5,12 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIEW</title>
+    
 </head>
 <body>
     <table border="8" id="show">
 		<thead>
+           <!-- <tr>
+                <th>Date</th>
+                <td><span id="result2"></span></td>
+            </tr>
 			<tr>
-				<th>Patient Name</th>
+                <th>Email</th>
+                <td><span id="result3"></span></td>
+            </tr>
+			<tr>
+                <th>Age</th>
+                <td><span id="result4"></span></td>
+            </tr>
+			<tr>
+                <th>Contact</th>
+                <td><span id="result5"></span></td>
+            </tr>
+			<tr>
+                <th>Disease</th>
+                <td><span id="result6"></span></td>
+            </tr>
+			<tr>
+                <th>Condition</th>
+                <td><span id="result7"></span></td>
+            </tr>
+			<tr>
+                <th>Medicine</th>
+                <td><span id="result8"></span></td>
+            </tr>-->
+            <tr>
+                <th>Patient Name</th>
 				<th>Date</th>
 				<th>Email</th>
 				<th>Age</th>
@@ -18,17 +47,32 @@
 				<th>Disease</th>
 				<th>Condition</th>
 				<th>Medicine</th>
-			</tr>
-		</thead>
+            </tr>
+            <tr>
+                <th><span id="result1"></span></th>
+                <th><span id="result2"></span></th>
+                <th><span id="result3"></span></th>
+                <th><span id="result4"></span></th>
+                <th><span id="result5"></span></th>
+                <th><span id="result6"></span></th>
+                <th><span id="result7"></span></th>
+                <th><span id="result8"></span></th>
+            </tr>
+
+    </thead>
 	</table> 
     <script>
-        function show() {
-            document.getElementById("show").innerHTML = name;
-            document.getElementById("show").innerHTML = window.location.search;
-            console.log(name);
-            console.log(window.location.search);
 
-        }
-        </script>
+        
+        document.getElementById("result1").innerHTML=localStorage.getItem("Namevalue");
+        document.getElementById("result2").innerHTML=localStorage.getItem("Datevalue");
+        document.getElementById("result3").innerHTML=localStorage.getItem("Emailvalue");
+        document.getElementById("result4").innerHTML=localStorage.getItem("agevalue");
+        document.getElementById("result5").innerHTML=localStorage.getItem("contactvalue");
+        document.getElementById("result6").innerHTML=localStorage.getItem("Diseasevalue");
+        document.getElementById("result7").innerHTML=localStorage.getItem("Conditionvalue");
+        document.getElementById("result8").innerHTML=localStorage.getItem("Medicinevalue");
+        
+    </script>
 </body>
 </html>
