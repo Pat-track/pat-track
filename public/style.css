@@ -1,117 +1,146 @@
-
 body {
-    font-family: "Roboto", sans-serif;
-    background-color: white;
+   font-family: "Roboto", sans-serif;
+   background-color: white;
 
-  }
-  
-  .signup-box {
-    width: 360px;
-    height: 620px;
-    margin: auto;
-    background-color:  #40826D;
-    border-radius: 3px;
-    
-  }
-  
-  .login-box {
-    width: 360px;
-    height: 280px;
-    margin: auto;
-    border-radius: 3px;
-    background-color:#40826D;
- 
+}
+#s1{
+   height:120vh;
+}
+#loginpage {
+   margin-top: 150px;
 
 
-    /* background-color: white; */
-    
-    
-  }
-  
-  h1 {
-    text-align: center;
-    padding-top: 15px;
-  }
-  
-  h4 {
-    text-align: center;
-  }
+}
 
-  h2 {
+.signup-box {
+   width: 360px;
+   height: 620px;
+   margin: auto;
+   background-color: #40826D;
+   border-radius: 3px;
+
+}
+.formaddp{
+   
+   width: 360px;
+   height: 670px;
+   margin: auto;
+   background-color: #40826D;
+   border-radius: 3px;
+}
+.login-box {
+   width: 360px;
+   height: 280px;
+   margin: auto;
+   border-radius: 3px;
+   background-color: #40826D;
+
+
+
+   /* background-color: white; */
+
+
+}
+
+h1 {
+   text-align: center;
+   padding-top: 15px;
+}
+
+h4 {
+   text-align: center;
+}
+
+h2 {
    text-align: center;
    color: #40826D;
    font: x-large;
- }
-  
-  form {
-    width: 300px;
-    margin-left: 20px;
-  }
-  
-  form label {
-    display: flex;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
-  form input {
-    width: 100%;
-    padding: 7px;
-    border: none;
-    border: 1px solid gray;
-    border-radius: 6px;
-    outline: none;
-  }
-  #buttondiv{
+}
+
+form {
+   width: 300px;
+   margin-left: 20px;
+}
+
+form label {
+   display: flex;
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+form input {
+   width: 100%;
+   padding: 7px;
+   border: none;
+   border: 1px solid gray;
+   border-radius: 6px;
+   outline: none;
+}
+
+#buttondiv {
    display: flex;
    justify-content: center;
    align-items: center;
-  }
-  
-  button{
+}
+
+button {
    margin-top: 30px;
    width: 310px;
    height: 30px;
    margin-top: 20px;
    border: none;
    border-radius: 3px;
-   background-color:white;
+   background-color: white;
    color: #40826D;
    font-size: 18px;
- }
-  p {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 15px;
-  }
-  .para-2 {
-    text-align: center;
-    color: black;
-    font-size: 15px;
-    margin-top: -10px;
-  }
-  .para-2 a {
-    color: #49c1a2;
-  }
-  
-  table{
-	margin-top: 75px;
-	text-align: center;
-	background: #49c1a2;
-	color: #fff;
+}
+.addpc{
+   margin-top: 30px;
+   width: 310px;
+   height: 30px;
+   margin-top: 20px;
+   border: none;
+   border-radius: 3px;
+   background-color: white;
+   color: #40826D;
+   font-size: 18px;
+}
+p {
+   text-align: center;
+   padding-top: 20px;
+   font-size: 15px;
+}
+
+.para-2 {
+   text-align: center;
+   color: black;
+   font-size: 15px;
+   margin-top: -10px;
+}
+
+.para-2 a {
+   color: #49c1a2;
+}
+
+table {
+   margin-top: 75px;
+   text-align: center;
+   background: #49c1a2;
+   color: #fff;
    width: 75%;
    height: 75%;
 }
 
-#show th, #show td{
-	padding: 13px;
+#show th,
+#show td {
+   padding: 13px;
 }
 
-#btna td input{
-	width: 100%;
+#btna td input {
+   width: 100%;
 }
 
-  
+
 /* *{
     margin: 0;
     padding: 0;
@@ -240,4 +269,3 @@ body{
  .form .button input{
     
  } */
-

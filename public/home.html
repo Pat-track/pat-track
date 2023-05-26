@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,23 @@
     <title>pat-track</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div class="img1">
-        <img src="src/3929642.jpg" alt="img" width="300" height="300">
-    </div>
-    <div class="btns">
-        <button class="b1" onclick="window.location.href='addpatient.html'">Add patient</button>
-        <button class="b2" onclick="redirect()">View patient</button>
-    </div>
 
+<body>
+    <div id="homepage"> 
+        <div class="img1">
+            <img src="src/3929642.jpg" alt="img" width="300" height="300">
+        </div>
+        <div class="btns">
+            <button class="b1" onclick="window.location.href='addpatient.html'">Add patient</button>
+            <button class="b2" onclick="redirect()">View patient</button>
+        </div>
+    </div>
     <script>
-        function redirect(){
-            window.location.href="addpatient.html#navigate";
+        function redirect() {
+            window.location.href = "addpatient.html#navigate";
         }
     </script>
 
 </body>
+
 </html>

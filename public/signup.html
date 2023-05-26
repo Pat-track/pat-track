@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>pat-track</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    
-  </head>
-  <body >
+
+<head>
+  <title>pat-track</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="signinpage">
     <div class="signup-box">
       <h1>Sign Up</h1>
       <h4>It's free and only takes a minute</h4>
       <div id="error"></div>
       <form id="form" action="/sign_up" method="post">
-          <label>First Name</label>
-          <input id="Fname" type="text" required/>
-          <label>Last Name</label>
-          <input id="Lname" type="text" required />
-          <label>Email</label>
-          <input id="email" type="email" placeholder="" />
-          <label>Password</label>
-          <input id="password" type="password" required />
-          <label>Confirm Password</label>
-          <input id="password2"type="password" required />
+        <label>First Name</label>
+        <input id="Fname" type="text" required />
+        <label>Last Name</label>
+        <input id="Lname" type="text" required />
+        <label>Email</label>
+        <input id="email" type="email" placeholder="" />
+        <label>Password</label>
+        <input id="password" type="password" required />
+        <label>Confirm Password</label>
+        <input id="password2" type="password" required />
         <!--<input type="button" value="Submit" />-->
-      <closeform></closeform></form>
+        <closeform></closeform>
+      </form>
       <div id="buttondiv">
-      <button id="btn" onclick="window.location.href='login.html';" type="submit">Register</a></button>
+        <button id="btn" onclick="window.location.href='login.html';" type="submit">Register</a></button>
       </div>
       <!-- <p>
         By clicking the Sign Up button,you agree to our <br />
@@ -38,7 +39,8 @@
     <p class="para-2">
       Already have an account? <a href="login.html">Login here</a>
     </p>
-    <script  refer src="script.js"></script>
-  </body>
-</html>
+  </div>
+    <script refer src="script.js"></script>
+</body>
 
+</html>
