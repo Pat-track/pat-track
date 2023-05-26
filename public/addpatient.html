@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="newjs.js"></script>
+
+</head>
+<header>
+<body id="patient">
+
+
+	<center>
+        <h2>ADD PATIENTS</h2>
+		<table border="8">
+			<thead>
+				<tr>
+					<th>Patient Name</th>
+					<td><input type="text" name="fname" id="name"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Date</th>
+					<td><input type="date" name="date" id="date"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>Age</th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+                <tr>
+					<th>Contact</th>
+					<td><input type="text" name="number" id="number"></td>
+				</tr>
+                <tr>
+					<th>Disease</th>
+					<td><input type="Text" name="Disease" id="disease"></td>
+				</tr>
+                <tr>
+					<th>Condition</th>
+					<td><input type="Text" name="Condition" id="Condition"></td>
+				</tr>
+                <tr>
+					<th>Medicine</th>
+					<td><input type="Text" name="Medicine" id="Medicine"></td>
+				</tr>
+                <tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+        <h2 id="navigate">VIEW PATIENTS</h2>
+
+        <table border="8" id="show">
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Date</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Contact</th>
+                    <th>Disease</th>
+                    <th>Condition</th>
+                    <th>Medicine</th>
+                </tr>
+            </thead>
+        </table>
+
+		
+	</center>
+
+
+</body>
+</header>
+</html>

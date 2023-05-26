@@ -36,6 +36,12 @@ body {
   h4 {
     text-align: center;
   }
+
+  h2 {
+   text-align: center;
+   color: #40826D;
+   font: x-large;
+ }
   
   form {
     width: 300px;
@@ -88,6 +94,23 @@ body {
     color: #49c1a2;
   }
   
+  table{
+	margin-top: 75px;
+	text-align: center;
+	background: #49c1a2;
+	color: #fff;
+   width: 75%;
+   height: 75%;
+}
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
+
   
 /* *{
     margin: 0;
