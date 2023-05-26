@@ -45,3 +45,33 @@ function AddRow(){
 	n++;
 	x++;
 }
+
+function addtonew(){
+
+	var Name=document.getElementById("name").value;
+	localStorage.setItem("Namevalue",Name);
+	
+	var Date=document.getElementById("date").value;
+	localStorage.setItem("Datevalue",Date);
+
+	var Email=document.getElementById("email").value;
+	localStorage.setItem("Emailvalue",Email);
+
+	var Age=document.getElementById("age").value;
+	localStorage.setItem("agevalue",Age);
+
+	var Contact=document.getElementById("number").value;
+	localStorage.setItem("contactvalue",Contact);
+
+	var Disease=document.getElementById("disease").value;
+	localStorage.setItem("Diseasevalue",Disease);
+
+	var Condition=document.getElementById("Condition").value;
+	localStorage.setItem("Conditionvalue",Condition);
+
+	var Medicine=document.getElementById("Medicine").value;
+	localStorage.setItem("Medicinevalue",Medicine);
+
+
+
+}
