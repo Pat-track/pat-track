@@ -19,10 +19,11 @@ These instructions will guide you on how to set up the Pat-Track system locally 
 ### Deployment
 
 1. Clone the repository:
+```bash
+ git clone https://github.com/Pat-track/pat-track.git 
+```
 
-   ```bash
-   git clone https://github.com/Pat-track/pat-track.git  
-   
+
 2. Change into the project directory:  
 ```bash
  cd pat-track
@@ -49,6 +50,8 @@ The Pat-Track project has been deployed using GitHub Pages and can be accessed [
 This project is licensed under the MIT License.  
 
 ## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or a pull request. For major changes, please open an issue first to discuss the proposed changes.  
+Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or a pull request. For major changes, please open an issue first to discuss the proposed changes. 
+### Ping Us
+If you have any questions, suggestions, or feedback regarding Pat-Track, please feel free to ping us: [Ashni](https://www.linkedin.com/in/ashni-chinnu-sam-0071b5238/) ,  [Susan](https://www.linkedin.com/in/susanandrews). We would be happy to hear from you!
 
    
