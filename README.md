@@ -2,7 +2,7 @@
 
 Pat-Track is a patient tracking system designed to assist clinicians in storing and managing patient information dynamically. It allows doctors to update patient details, disease information, medication recommendations, and diagnosis dates in real-time. Patients can also access their information through the website.
 
-*Note: This project is currently under development.*
+## *Note: This project is currently under development.*
 
 ## Features
 
